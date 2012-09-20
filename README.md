@@ -13,7 +13,7 @@
 * It's better to send a message than implement behavior
   * Hide the mess by delegating more
   * Factories can help (ie. for delegating something to types `#{class_name}ShockCost`)
-* [http://bit.ly/poodr-combo](http://bit.ly/poodr-combo)
+* [bit.ly/poodr-combo](http://bit.ly/poodr-combo)
 
 ### Ben Orenstein (@r00k): Refactoring from Good to Great
 
@@ -46,5 +46,30 @@
 * What value will I get out of this test?
 * Use isolation tests to drive design, end-to-end tests to prove it works (the GOOS way)
 * Object surface area: how many public methods are on it
-* [http://is.gd/rubymocks](http://is.gd/rubymocks)
-* [http://is.gd/gimmeruby](http://is.gd/gimmeruby)
+* [is.gd/rubymocks](http://is.gd/rubymocks)
+* [is.gd/gimmeruby](http://is.gd/gimmeruby)
+
+### Roy Tomeij (@roy): Modular & Reusable Front End Code / The Joy of Front-End
+
+* Bob Ross created modular painting
+* [roy.io/book](http://roy.io/book)
+* Modular HTML5
+  * Sectioning elements can start with h1
+  * Modernizr for IE
+* Modular CSS
+  * Determine and re-use common elements
+  * Print out designs and cross out unique elements
+  * Refactoring
+    * Give similar modules a new class name, style that
+    * Make a new css file (clean code goes in clean files)
+  * Namespace modules (`mod-foo`)
+  * Use generic class names and shallow selectors
+  * Use a second class name for specific instances, rather than scoping
+    * Second class names don't need to be semantic in naming
+  * Use media queries in sass
+* Modular JS
+  * Use IDs for javascript and testing only
+  * Use data attributes instead of classes to target multiple elements
+    * [roy.io/datatest](http://roy.io/datatest)
+    * Slightly slower than using classes
+* Slides: [roy.io/rmr12](http://roy.io/rmr12)
