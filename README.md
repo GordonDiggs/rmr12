@@ -1,4 +1,4 @@
-# Rocky Mountain Ruby 2012
+![](https://dl.dropbox.com/u/114112/mobile-logo.png)
 
 ## Thursday, September 20
 
