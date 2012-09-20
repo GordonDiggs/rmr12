@@ -73,3 +73,18 @@
     * [roy.io/datatest](http://roy.io/datatest)
     * Slightly slower than using classes
 * Slides: [roy.io/rmr12](http://roy.io/rmr12)
+
+### Angela Harms (@angelaharms): Enhance Your Code With Rainbows
+
+### Lightning Talks Round 1
+
+#### Colin Thomas Arnold (@colinta): RubyMotion
+
+* Compiles ruby into native iOS code
+
+#### Derrick Ko: mailcheck.js
+
+### Growing Developers Panel
+
+* Apprentice developers
+* Where are the jobs for people without 3-5 years experience?
