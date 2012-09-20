@@ -37,3 +37,14 @@
   * Files that change a lot ([danmayer/churn](https://github.com/danmayer/churn))
   * Places that you find bugs
     * You found the bug because you didn't understand the code in the first place
+
+### Justin Searls: To Mock or Not To Mock
+
+* How much reality does a test need?
+  * Acceptance tests need a high level of reality
+* Tests should be readable to let the next person know how something works
+* What value will I get out of this test?
+* Use isolation tests to drive design, end-to-end tests to prove it works (the GOOS way)
+* Object surface area: how many public methods are on it
+* [http://is.gd/rubymocks](http://is.gd/rubymocks)
+* [http://is.gd/gimmeruby](http://is.gd/gimmeruby)
