@@ -15,4 +15,25 @@
   * Factories can help (ie. for delegating something to types `#{class_name}ShockCost`)
 * [http://bit.ly/poodr-combo](http://bit.ly/poodr-combo)
 
+### Ben Orenstein (@r00k): Refactoring from Good to Great
 
+* Extracting to methods means you aren't tempted to read how it's done
+* Repeated params are a data clump - you can move them into their own class
+  * ie. `@start_date` and `@end_date` become `DateRange.new(start, end)`
+* Refactor with tests
+* `arr.inject(&:+)`: Sum values in 1.9
+* Null Object Pattern
+  * `@contact = contact || NullContact.new`
+  * `NullContact` returns default values for when contact is absent
+  * Some methods can just do nothing
+  * Removes checks for `if contact.present?`
+  * `NullContact` can be a singleton
+  * Can help with logged in / logged out logic as well (`current_user.welcome_message`)
+* Not everything works everywhere (_Tell, don't ask_ not necessarily good for views)
+* Depend Upon Abstractions
+  * Extract stuff into wrapper classes
+* When do you refactor?
+  * Refactor god objects (usually `User` and whatever your app really uses)
+  * Files that change a lot ([danmayer/churn](https://github.com/danmayer/churn))
+  * Places that you find bugs
+    * You found the bug because you didn't understand the code in the first place
