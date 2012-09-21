@@ -105,4 +105,11 @@
 * _Seven Languages in Seven Weeks_ book
 * See slides for references
 
+### Josh Nichols (@techpickles): ChatOps: Using Chat as a Command Line For Your Company
+
+* Tabular output : clitable
+* Is it iced coffee weather
+* oembed
+
+
 
