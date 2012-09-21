@@ -111,5 +111,20 @@
 * Is it iced coffee weather
 * oembed
 
+### Stephan Hagemann (@shageman): Wrangling Large Rails Codebases
+
+* [shageman/the\_next\_big\_thing](http://github.com/shageman/the_next_big_thing)
+* Organize models into namespaced Modules
+  * adds some structure but doesn't help much else
+* Gems bring their own specs
+  * the gem only deals with its own stuff
+* Higher cohesion inside, looser coupling outside
+* Annoyance gem
+* use unbuilt gems, require by path
+  * `gem "annoyance", path: 'gems/annoyance'`
+* Rails engines can wrap behavior
+  * use `mount` in routes
+  * `isolate_namespace` in engine
+* Putting things in boxes won't solve a lot of problems, but it will help
 
 
