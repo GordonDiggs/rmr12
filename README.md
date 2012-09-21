@@ -127,4 +127,13 @@
   * `isolate_namespace` in engine
 * Putting things in boxes won't solve a lot of problems, but it will help
 
+### Derrick Ko (@derrickko): Building in Rails, Backbone and Coffeescript
 
+* XMPP / Pusher / HTML5 SSE
+* RABL can replace to_json for responses
+* Keep views self-contained for re-use
+* Action Caching, View Caching
+  * non-cachable views extend cached ones
+  * expiring view expires action, but not other views in that action
+* require.js
+* Don't over-engineer
