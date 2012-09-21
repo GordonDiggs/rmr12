@@ -88,3 +88,21 @@
 
 * Apprentice developers
 * Where are the jobs for people without 3-5 years experience?
+
+## Friday, September 21
+
+### José Valim (@josevalim): Let's Talk Concurrency
+
+* Single Process, Multi-core Concurrency
+* In thread, lock with `synchronize {...}`
+* Atomic blocks: `atomic {...}`, `ref{...}` for soft transactional memory
+* Atomic blocks in ruby not actually atomic, will execute, check, and roll back if necessary
+* Message passing
+  * `receive` blocks until message is received
+  * Client sends message with `server <- message`
+* Oz language
+* [github.com/celluloid](http://github.com/celluloid)
+* _Seven Languages in Seven Weeks_ book
+* See slides for references
+
+
