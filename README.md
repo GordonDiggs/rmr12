@@ -176,3 +176,24 @@
 * Propose the best solution, not all the solutions
 * Different stakeholders care about different things. Present the right context.
 
+### Russ Olsen: Eloquent Explanations
+
+* The only way we can get smarter is to explain things to each other
+* Five ways to make your explanations stick:
+  * Take Explaining Seriously
+     * Have a plan
+     * Don't try to explain everything all at once
+  * Be Agile
+    * Do it, measure it, fix it, repeat
+  * Put the important stuff first
+    * Explaining is a timed event
+    * Terminology is not the important stuff
+    * Supply small victories
+    * Tell them it's hard after explaining
+  * Don't add extra things
+    * Repeat yourself for emphasis and context
+  * Mix in some humor
+    * _Numerical Methods that Work_ by Forman S. Acton
+    * Don't let them get in the way
+    * Subtle is better
+* Always show up
