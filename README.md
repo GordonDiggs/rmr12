@@ -137,3 +137,35 @@
   * expiring view expires action, but not other views in that action
 * require.js
 * Don't over-engineer
+
+### Lightning Talks Round 2
+
+#### Ruby command line
+
+* `rescue Interrupt; exit 130`
+* [bit.ly/rmr12-sprintf](http://bit.ly/rmr12-sprintf)
+
+#### Cleanshaved
+
+* compile handlebars templates server-side
+* [fredjean/clean\_shaved](http://github.com/fredjean/clean_shaved)
+
+#### Ruby on Android
+
+#### Dependency Injection in Ruby
+
+* An object doesn't take what it needs, it get what it needs
+* method decorator
+* ServiceProvider
+
+#### John Foley (@jw_foley): Project Grok
+
+* Google Hangout?
+
+#### Dave Woodall (@dmwoodall): Learning to Program
+
+#### Cameron Pope: ack
+
+#### Drew Neil: vim
+
+
