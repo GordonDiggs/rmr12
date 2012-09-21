@@ -168,4 +168,11 @@
 
 #### Drew Neil: vim
 
+### Paul Elliott (@p_elliott): Expert Consulting
+
+* Everyone is a consultant
+* Be an expert in what you know
+* Know when to hold 'em, know when to fold 'em
+* Propose the best solution, not all the solutions
+* Different stakeholders care about different things. Present the right context.
 
